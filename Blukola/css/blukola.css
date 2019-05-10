@@ -1,0 +1,175 @@
+body {
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/images/brushes.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for the Header tag accross all pages */
+.container {
+    background-color: beige;
+    background-image: url("images/brushes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(106, 106, 223);
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    background-image: url("images/brushes.jpg");
+    box-shadow: 10px;
+}
+
+.box a {
+    font-size: 2.8em;
+    color: blue;
+    font-style: italic;
+    font-family: "chocolate caliente";
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: #c39b46;
+}
+
+
+.blu {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #003464;
+}
+nav > ul {
+    display: flex;
+}
+nav > ul > li{
+    margin: 5px;
+    background:#c39b46;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    color:white;
+    background:lightblue;
+    cursor: pointer;
+}
+#dropdown-item{
+    position: absolute;
+    background: grey;
+}
+.hidden{
+    display: none;
+    transition: display 2s ease-in-out;
+}
+.show{
+    display: block;
+    transition: display 2s ease-in-out;
+}
+.rotate{
+    transform: rotate(90deg);
+    transition: transform 1s ease-in-out;
+}
+
+/* CSS stles for the main page items */
+.contain {
+    background-color: #c39b46;
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    
+    /* flex-direction: row; */
+}
+
+.contain p {
+    color: #003464;
+}
+.left-bar {
+    background-color: #8bc0f1;
+    width: 20%;
+    height: 200vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-bar {
+    /* background-color: #f8f8f8; */
+    width: 80%;
+    height: 100vh;
+}
+
+.about {
+    background-color: #f8f8f8;
+    width: 900px;
+    height: 400px;
+    padding: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 8px;
+    border-radius: 7%;
+    box-shadow: solid 2px #c39b46;
+    font-size: 1.5em;
+}
+
+.service {
+    background-color: #f8f8f8;
+    width: 900px;
+    height: 400px;
+    padding: 9px;
+    margin: 8px;
+    border-radius: 7%;
+    box-shadow: solid 2px #c39b46;
+    font-size: 1.5em;
+}
+
+.sales {
+    background-color: #f8f8f8;
+    width: 900px;
+    height: 400px;
+    padding: 9px;
+    margin: 8px;
+    border-radius: 7%;
+    box-shadow: solid 2px #c39b46;
+    font-size: 1.5em;
+}
+
+.top-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 0 3px 6px #c39b46;
+    text-decoration: none;
